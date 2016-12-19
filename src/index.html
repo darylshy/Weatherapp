@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="weatherApp">
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
@@ -22,15 +22,15 @@
 <!--||BEGIN: NAVIGATION||-->
 				<div class="row nav-row main-nav">
 					<nav class="navbar navbar-default">
-						<li><a href="">Home</a></li>
-						<li><a href="">Other</a></li>
+						<li><a href="#">Hello</a></li>
+						<li><a href="#!/goodbye">Good Bye</a></li>
 					</nav>	
 				</div>
 <!--<<END: NAVIGATION>>-->
 <!--||BEGIN: BODY||-->
 				<div class="row body-row">
 					<div class="main-body">
-						<h1>THIS IS MAIN CONTENT</h1>
+						<div ng-view></div><!--MARKUP INJECTED HERE!-->
 					</div>
 				</div>
 <!--<<END: BODY>>-->	
@@ -46,9 +46,16 @@
 
 
 
-	<!--||BEGIN: jQuery||-->
+<!--||BEGIN: jQuery||-->
 	<script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
-	<!--||BEGIN: Bootstrap||-->
+<!--||BEGIN: Bootstrap||-->
 	<script type="text/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<!--||BEGIN: ANGULAR||-->
+	<script type="text/javascript" src="../node_modules/angular/angular.min.js"></script>
+<!--||BEGIN: ANGULAR-ROUTE||-->
+	<script type="text/javascript" src="../node_modules/angular-route/angular-route.min.js"></script>
+<!--||BEGIN: ANGULAR-ROUTE||-->
+	<script type="text/javascript" src="../js/app.js"></script>
+
 </body>
 </html>

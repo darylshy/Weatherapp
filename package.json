@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/darylshy/weatherapp#readme",
   "dependencies": {
+    "angular": "^1.6.0",
+    "angular-route": "^1.6.0",
     "bootstrap": "^3.3.7",
     "jquery": "^3.1.1",
     "sass": "^0.5.0"
