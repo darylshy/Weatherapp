@@ -2,50 +2,53 @@
   padding-left: 0;
   padding-right: 0; }
 
-.page-header {
-  padding-bottom: 22px; }
-  .page-header h1 {
-    padding: 0 0 0 20px;
+.header-row {
+  background-color: #37474f; }
+  .header-row h1 {
     color: #fff;
     font-family: Arial; }
 
-.header-container {
-  background-color: #37474f;
-  padding-top: 1px; }
-
-.navbar {
-  margin-top: -21px;
+.nav-row .navbar {
   border-radius: 0; }
-  .navbar li {
-    list-style: none;
-    float: left;
-    margin-right: 5px;
-    height: 50px;
-    width: 100px;
-    line-height: 50px;
-    text-align: center;
-    border: 1px solid rgba(46, 46, 46, 0.14);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px; }
-    .navbar li:hover {
-      background-color: rgba(46, 46, 46, 0.05);
-      cursor: pointer; }
-    .navbar li:first-child {
-      margin-left: 20px; }
-    .navbar li a {
-      color: inherit;
-      display: inline-block;
-      width: 100%;
-      height: 100%; }
-      .navbar li a:hover {
-        text-decoration: none; }
+.nav-row li {
+  list-style: none;
+  float: left;
+  margin-right: 5px;
+  height: 50px;
+  width: 100px;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid rgba(46, 46, 46, 0.14);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; }
+  .nav-row li:hover {
+    background-color: rgba(46, 46, 46, 0.05);
+    cursor: pointer; }
+  .nav-row li:first-child {
+    margin-left: 30px; }
+  .nav-row li a {
+    color: inherit;
+    display: inline-block;
+    width: 100%;
+    height: 100%; }
+    .nav-row li a:hover {
+      text-decoration: none; }
 
 .featured-content {
-  height: 85vh;
-  background-color: #ffecb3;
-  margin-top: -21px; }
+  background-color: #ffecb3; }
 
 footer {
-  background-color: #F8F8F8; }
+  background-color: #F8F8F8;
+  height: 30px;
+  margin-top: -20px; }
+  footer h5 {
+    margin: 0;
+    height: 30px; }
+
+html, body, .container-fluid, .content-row, .featured-content {
+  height: 98%; }
+
+.header-row h1, .main-body h1, footer h5 {
+  padding-left: 40px; }
 
 /*# sourceMappingURL=main.css.map */
